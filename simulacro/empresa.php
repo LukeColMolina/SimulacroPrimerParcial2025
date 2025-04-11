@@ -45,8 +45,8 @@ class empresa{
      $codigoretorno = $objVentas->incorporarMoto()->array_search($codigomoto,$coleccion);
      return $codigoretorno;
   }
- public function registrarVenta(){
-    
+ public function registrarVenta($colCodigosMoto, $objCliente){
+
  }
 }
  
